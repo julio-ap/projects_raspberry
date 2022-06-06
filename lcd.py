@@ -10,8 +10,10 @@ try:
     signal(SIGTERM, safe_exit)
     signal(SIGHUP, safe_exit)
 
-    lcd.text("Hello,", 1)
-    lcd.text("Raspberry Pi!", 2)
+    lcd.text("Hello245,", 1)
+    lcd.text("Raspberry Piipi!", 2)
+    lcd.text("probando,", 3)
+    lcd.text("tengo hambre", 4)
 
     pause()
 
