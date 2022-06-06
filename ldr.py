@@ -3,7 +3,7 @@ import time
 
 GPIO.setmode(GPIO.BOARD)
 
-resistorPin = 16
+resistorPin = 36
 
 while True:
     GPIO.setup(resistorPin, GPIO.OUT)
@@ -17,5 +17,5 @@ while True:
     while(GPIO.input(resistorPin) == GPIO.LOW):
         diff  = time.time() - currentTime
         
-    print(diff * 1000)
+    print(diff * 10000)
     time.sleep(1)
