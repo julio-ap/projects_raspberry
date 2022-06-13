@@ -3,13 +3,13 @@ from distance import distance
 
 
 config = {
-    "apiKey": "AIzaSyCZE61YtZWt_lMaZiOq6ANFvLCyrNWYVEQ",
-    "authDomain": "sanket-e9152.firebaseapp.com",
-    "databaseURL": "https://sanket-e9152-default-rtdb.firebaseio.com",
-    "projectId": "sanket-e9152",
-    "storageBucket": "sanket-e9152.appspot.com",
-    "messagingSenderId": "47809698488",
-    "appId": "1:47809698488:web:753c4c7fe364de610e324d"
+    apiKey: "AIzaSyDRNRy2kWJEf6ZyQ57Q_TP6N0iloIjBUK8",
+  authDomain: "p-rasp.firebaseapp.com",
+  databaseURL: "https://p-rasp-default-rtdb.firebaseio.com",
+  projectId: "p-rasp",
+  storageBucket: "p-rasp.appspot.com",
+  messagingSenderId: "235208075939",
+  appId: "1:235208075939:web:0641ffba5e71a35c1ced16"
     
 
 };
